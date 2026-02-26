@@ -1,17 +1,12 @@
-import CardItem from "./components/card/CardItem";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import CardList from "./components/card/cardlist";
 
 function APP(){
   return (
     <>
       <Header />
-      <main>
-      <CardItem />
-      <CardItem />
-      <CardItem />
-      <CardItem />
-      </main>
+      <CardList />
       <Footer/>
     </>
 
